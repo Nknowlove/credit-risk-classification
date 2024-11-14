@@ -32,7 +32,7 @@ Classification Report:
 weighted avg       0.99      0.99      0.99     19384
 ```
 
-Class 0 ("healthy"):
+### Class 0 ("healthy"):
 
 Precision: 1.00
 The model is 100% accurate when predicting class 0, meaning there are no false positives for this class.
@@ -43,7 +43,7 @@ The model correctly identifies 99% of the actual class 0 samples.
 F1-Score: 1.00
 The F1-score, which balances precision and recall, is 1.00, indicating perfect performance for class 0.
 
-Class 1 ("high-risk"):
+### Class 1 ("high-risk"):
 
 Precision: 0.84
 The model predicts class 1 correctly 84% of the time when it predicts class 1, but there are some false positives.
@@ -54,7 +54,7 @@ The model identifies 94% of the actual class 1 samples, which is relatively high
 F1-Score: 0.89
 The F1-score of 0.89 reflects a good balance between precision and recall, but it is lower than that of class 0 due to the lower precision.
 
-Overall:
+### Overall:
 
 Accuracy: 0.99
 The model has an overall accuracy of 99%, which is very high, meaning it correctly classifies 99% of all samples.
