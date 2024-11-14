@@ -20,14 +20,17 @@ The goal of this analysis is to develop a supervised machine learning model that
 
 ## The results
 
+```
 Classification Report:
                precision    recall  f1-score   support
 
            0       1.00      0.99      1.00     18765
            1       0.84      0.94      0.89       619
+           
     accuracy                           0.99     19384
    macro avg       0.92      0.97      0.94     19384
 weighted avg       0.99      0.99      0.99     19384
+```
 
 Class 0 ("healthy"):
 
